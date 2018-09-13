@@ -1,0 +1,48 @@
+<html><head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<meta name="AppleTitle" content="MAMP Help">
+		<title>MAMP Help</title><link href="style.css" rel="stylesheet" type="text/css" media="all"></head>
+
+	<body>
+		<div><a href="http://www.mamp.info/"><img id="logo" src="images/logo_small.png" alt="MAMP by appsolute" width="240" height="66"></a></div>
+		<div id="textcontainer" style="clear:both">
+			<h1>FAQ</h1>
+			<h3>Which programs are installed?</h3>
+			<p><ul>
+        <li>Apache 2.2.27</li>
+        <li>MySQL 5.5.41</li>
+        <li>PHP 5.3.23 & 5.4.1 & PHP 5.4.34 & 5.5.0 & 5.5.19 & 5.6.0 & 5.6.3</li>
+        <li>OpenSSL 1.0.1g</li>
+        <li>APC 3.1.13</li>
+        <li>APCu 4.0.4</li>
+        <li>eAccelerator 1.0</li>
+        <li>XCache 3.0.4 & 3.1.0</li>
+        <li>OPCache 7.0.4</li>
+        <li>Python 2.7.6</li>
+        <li>mod_wsgi 3.4.0</li>
+        <li>Perl 5.16.1</li>
+        <li>mod_perl 2.0.8</li>
+        <li>phpMyAdmin 4.2.7</li>
+        <li>SQLiteManager 1.2.4</li>
+        <li>phpLiteAdmin 1.9.4.1</li>
+        <li>Freetype 2.4.10</li>
+        <li>curl 7.36.0</li>
+        <li>libpng 1.5.18</li>
+        <li>ImageMagick 6.8.9-1</li>
+        <li>Imagick 3.1.2</li>
+        <li>gd 2.1.0</li>
+        <li>zlib 1.2.7</li>
+        <li>libxml2 2.9.1</li>
+        <li>gettext 0.18.1.1</li>
+        <li>iconv 1.14</li>
+        <li>mcrypt 2.5.8</li>
+			</ul></p><br>
+			<p>Please Note: All examples assume you have installed MAMP into the C:\MAMP\ directory. If you have installed MAMP in a different location, please check your installation directory and change paths accordingly.</p>
+			<h3>How can I change the password of MySQL?</h3>
+			<p>Open the terminal and type the following:<br /><br /><code>C:\MAMP\bin\mysql\bin\mysqladmin -u root -p password &lt;NEWPASSWORD&gt;</code><br /><br />Instead of <code style="left:0">&lt;NEWPASSWORD&gt;</code> use the new password you want.<br />Afterwards, you also need to change the password for phpMyAdmin and other scripts which are running under MAMP. You can change the password for phpMyAdmin in the file C:\MAMP\bin\phpMyAdmin\config.inc.php</p><br>
+			<h3>Where can I change the ports for Apache and MySql?</h3>
+			<p>You can change the ports in the Preferences dialog:<br><br><img src="images/ports.png" alt="Ports" ></p><br>
+			<h3>Where should I put my HTML and PHP pages?</h3>
+			<p>By default, PHP and HTML Pages should be copied into the htdocs folder which is located under C:\MAMP\htdocs\. This folder is called &quot;Document Root&quot;. You can change the path for the Document Root in the MAMP program under Preferences:<br><br><img src="images/documentRoot.png" alt="Document Root" ></p><br>
+		</div>
+	</body></html>
